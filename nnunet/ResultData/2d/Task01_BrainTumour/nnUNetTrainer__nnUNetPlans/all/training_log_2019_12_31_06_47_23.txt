@@ -1,0 +1,474 @@
+Starting... 
+2019-12-31 06:47:23.896987: Creating new split... 
+2019-12-31 06:47:23.900872: unpacking dataset 
+2019-12-31 06:49:33.790970: done 
+2019-12-31 06:49:33.793052: TRAINING KEYS:
+ odict_keys(['BRATS_001', 'BRATS_002', 'BRATS_003', 'BRATS_004', 'BRATS_005', 'BRATS_006', 'BRATS_007', 'BRATS_008', 'BRATS_009', 'BRATS_010', 'BRATS_011', 'BRATS_012', 'BRATS_013', 'BRATS_014', 'BRATS_015', 'BRATS_016', 'BRATS_017', 'BRATS_018', 'BRATS_019', 'BRATS_020', 'BRATS_021', 'BRATS_022', 'BRATS_023', 'BRATS_024', 'BRATS_025', 'BRATS_026', 'BRATS_027', 'BRATS_028', 'BRATS_029', 'BRATS_030', 'BRATS_031', 'BRATS_032', 'BRATS_033', 'BRATS_034', 'BRATS_035', 'BRATS_036', 'BRATS_037', 'BRATS_038', 'BRATS_039', 'BRATS_040', 'BRATS_041', 'BRATS_042', 'BRATS_043', 'BRATS_044', 'BRATS_045', 'BRATS_046', 'BRATS_047', 'BRATS_048', 'BRATS_049', 'BRATS_050', 'BRATS_051', 'BRATS_052', 'BRATS_053', 'BRATS_054', 'BRATS_055', 'BRATS_056', 'BRATS_057', 'BRATS_058', 'BRATS_059', 'BRATS_060', 'BRATS_061', 'BRATS_062', 'BRATS_063', 'BRATS_064', 'BRATS_065', 'BRATS_066', 'BRATS_067', 'BRATS_068', 'BRATS_069', 'BRATS_070', 'BRATS_071', 'BRATS_072', 'BRATS_073', 'BRATS_074', 'BRATS_075', 'BRATS_076', 'BRATS_077', 'BRATS_078', 'BRATS_079', 'BRATS_080', 'BRATS_081', 'BRATS_082', 'BRATS_083', 'BRATS_084', 'BRATS_085', 'BRATS_086', 'BRATS_087', 'BRATS_088', 'BRATS_089', 'BRATS_090', 'BRATS_091', 'BRATS_092', 'BRATS_093', 'BRATS_094', 'BRATS_095', 'BRATS_096', 'BRATS_097', 'BRATS_098', 'BRATS_099', 'BRATS_100']) 
+2019-12-31 06:49:33.793214: VALIDATION KEYS:
+ odict_keys(['BRATS_001', 'BRATS_002', 'BRATS_003', 'BRATS_004', 'BRATS_005', 'BRATS_006', 'BRATS_007', 'BRATS_008', 'BRATS_009', 'BRATS_010', 'BRATS_011', 'BRATS_012', 'BRATS_013', 'BRATS_014', 'BRATS_015', 'BRATS_016', 'BRATS_017', 'BRATS_018', 'BRATS_019', 'BRATS_020', 'BRATS_021', 'BRATS_022', 'BRATS_023', 'BRATS_024', 'BRATS_025', 'BRATS_026', 'BRATS_027', 'BRATS_028', 'BRATS_029', 'BRATS_030', 'BRATS_031', 'BRATS_032', 'BRATS_033', 'BRATS_034', 'BRATS_035', 'BRATS_036', 'BRATS_037', 'BRATS_038', 'BRATS_039', 'BRATS_040', 'BRATS_041', 'BRATS_042', 'BRATS_043', 'BRATS_044', 'BRATS_045', 'BRATS_046', 'BRATS_047', 'BRATS_048', 'BRATS_049', 'BRATS_050', 'BRATS_051', 'BRATS_052', 'BRATS_053', 'BRATS_054', 'BRATS_055', 'BRATS_056', 'BRATS_057', 'BRATS_058', 'BRATS_059', 'BRATS_060', 'BRATS_061', 'BRATS_062', 'BRATS_063', 'BRATS_064', 'BRATS_065', 'BRATS_066', 'BRATS_067', 'BRATS_068', 'BRATS_069', 'BRATS_070', 'BRATS_071', 'BRATS_072', 'BRATS_073', 'BRATS_074', 'BRATS_075', 'BRATS_076', 'BRATS_077', 'BRATS_078', 'BRATS_079', 'BRATS_080', 'BRATS_081', 'BRATS_082', 'BRATS_083', 'BRATS_084', 'BRATS_085', 'BRATS_086', 'BRATS_087', 'BRATS_088', 'BRATS_089', 'BRATS_090', 'BRATS_091', 'BRATS_092', 'BRATS_093', 'BRATS_094', 'BRATS_095', 'BRATS_096', 'BRATS_097', 'BRATS_098', 'BRATS_099', 'BRATS_100']) 
+2019-12-31 06:49:46.858446: Unable to plot network architecture: 
+2019-12-31 06:49:46.858566: No module named 'hiddenlayer' 
+2019-12-31 06:49:46.858736: 
+epoch:  0 
+2019-12-31 06:59:03.987003: train loss : 0.7527 
+2019-12-31 07:01:22.663147: val loss (train=False): 0.3047 
+2019-12-31 07:01:22.824561: Val glob dc per class: [0.6861276116918833, 0.10697244703943605, 0.650016921741294] 
+2019-12-31 07:01:25.897438: lr is now (scheduler) 0.0003 
+2019-12-31 07:01:25.897614: current best_val_eval_criterion_MA is 0.48100 
+2019-12-31 07:01:25.897672: current val_eval_criterion_MA is 0.4810 
+2019-12-31 07:01:25.897734: No improvement: current train MA 0.7527, best: 0.7527, eps is 0.0005 
+2019-12-31 07:01:25.897783: Patience: 0/50 
+2019-12-31 07:01:25.897820: This epoch took 695.895982 s
+ 
+2019-12-31 07:01:25.897857: 
+epoch:  1 
+2019-12-31 07:11:42.940219: train loss : 0.0722 
+2019-12-31 07:14:03.062162: val loss (train=False): -0.1312 
+2019-12-31 07:14:03.183633: Val glob dc per class: [0.7828350928764672, 0.6178954099055497, 0.824907628505812] 
+2019-12-31 07:14:05.633556: lr is now (scheduler) 0.0003 
+2019-12-31 07:14:05.633721: current best_val_eval_criterion_MA is 0.48100 
+2019-12-31 07:14:05.633850: current val_eval_criterion_MA is 0.5071 
+2019-12-31 07:14:05.633897: saving best epoch checkpoint... 
+2019-12-31 07:14:10.249702: saving checkpoint... 
+2019-12-31 07:14:12.266265: done, saving took 6.63 seconds 
+2019-12-31 07:14:12.318934: New best epoch (train loss MA): 0.7051 
+2019-12-31 07:14:12.319106: Patience: 0/50 
+2019-12-31 07:14:12.319170: This epoch took 757.239391 s
+ 
+2019-12-31 07:14:12.319225: 
+epoch:  2 
+2019-12-31 07:24:23.452594: train loss : -0.3243 
+2019-12-31 07:26:47.452640: val loss (train=False): -0.5083 
+2019-12-31 07:26:47.622314: Val glob dc per class: [0.8190006342364952, 0.6964567286487148, 0.8588906373247184] 
+2019-12-31 07:26:49.928559: lr is now (scheduler) 0.0003 
+2019-12-31 07:26:49.928738: current best_val_eval_criterion_MA is 0.50710 
+2019-12-31 07:26:49.928805: current val_eval_criterion_MA is 0.5356 
+2019-12-31 07:26:49.928860: saving best epoch checkpoint... 
+2019-12-31 07:26:50.034847: saving checkpoint... 
+2019-12-31 07:26:51.230533: done, saving took 1.30 seconds 
+2019-12-31 07:26:51.289890: New best epoch (train loss MA): 0.6330 
+2019-12-31 07:26:51.290071: Patience: 0/50 
+2019-12-31 07:26:51.290141: This epoch took 755.234961 s
+ 
+2019-12-31 07:26:51.290184: 
+epoch:  3 
+2019-12-31 07:38:08.990556: train loss : -0.6123 
+2019-12-31 07:40:23.747791: val loss (train=False): -0.6900 
+2019-12-31 07:40:23.925486: Val glob dc per class: [0.8368527381628036, 0.739773011271193, 0.8811516525485295] 
+2019-12-31 07:40:26.440810: lr is now (scheduler) 0.0003 
+2019-12-31 07:40:26.440979: current best_val_eval_criterion_MA is 0.53560 
+2019-12-31 07:40:26.441030: current val_eval_criterion_MA is 0.5639 
+2019-12-31 07:40:26.441068: saving best epoch checkpoint... 
+2019-12-31 07:40:26.499083: saving checkpoint... 
+2019-12-31 07:40:27.772263: done, saving took 1.33 seconds 
+2019-12-31 07:40:27.842630: New best epoch (train loss MA): 0.5459 
+2019-12-31 07:40:27.842855: Patience: 0/50 
+2019-12-31 07:40:27.842945: This epoch took 812.565226 s
+ 
+2019-12-31 07:40:27.843008: 
+epoch:  4 
+2019-12-31 07:51:04.849728: train loss : -0.7182 
+2019-12-31 07:53:25.923594: val loss (train=False): -0.7461 
+2019-12-31 07:53:26.157824: Val glob dc per class: [0.8379018781533242, 0.7518020472843191, 0.8953441602375043] 
+2019-12-31 07:53:28.608735: lr is now (scheduler) 0.0003 
+2019-12-31 07:53:28.608904: current best_val_eval_criterion_MA is 0.56390 
+2019-12-31 07:53:28.608970: current val_eval_criterion_MA is 0.5904 
+2019-12-31 07:53:28.609025: saving best epoch checkpoint... 
+2019-12-31 07:53:28.663822: saving checkpoint... 
+2019-12-31 07:53:30.002620: done, saving took 1.39 seconds 
+2019-12-31 07:53:30.062223: New best epoch (train loss MA): 0.4574 
+2019-12-31 07:53:30.062368: Patience: 0/50 
+2019-12-31 07:53:30.062456: This epoch took 778.236894 s
+ 
+2019-12-31 07:53:30.062540: 
+epoch:  5 
+2019-12-31 08:04:06.599086: train loss : -0.7634 
+2019-12-31 08:06:23.201061: val loss (train=False): -0.7787 
+2019-12-31 08:06:23.390758: Val glob dc per class: [0.8511944524604778, 0.7745454400115819, 0.8998324052694693] 
+2019-12-31 08:06:25.834742: lr is now (scheduler) 0.0003 
+2019-12-31 08:06:25.834909: current best_val_eval_criterion_MA is 0.59040 
+2019-12-31 08:06:25.834959: current val_eval_criterion_MA is 0.6155 
+2019-12-31 08:06:25.834997: saving best epoch checkpoint... 
+2019-12-31 08:06:25.891152: saving checkpoint... 
+2019-12-31 08:06:30.604218: done, saving took 4.77 seconds 
+2019-12-31 08:06:30.661141: New best epoch (train loss MA): 0.3719 
+2019-12-31 08:06:30.661289: Patience: 0/50 
+2019-12-31 08:06:30.661370: This epoch took 773.210437 s
+ 
+2019-12-31 08:06:30.661476: 
+epoch:  6 
+2019-12-31 08:17:18.621524: train loss : -0.7839 
+2019-12-31 08:19:36.124197: val loss (train=False): -0.7934 
+2019-12-31 08:19:36.279312: Val glob dc per class: [0.8609342108698937, 0.7819958423222977, 0.9028458275044163] 
+2019-12-31 08:19:38.639437: lr is now (scheduler) 0.0003 
+2019-12-31 08:19:38.639654: current best_val_eval_criterion_MA is 0.61550 
+2019-12-31 08:19:38.639726: current val_eval_criterion_MA is 0.6388 
+2019-12-31 08:19:38.639770: saving best epoch checkpoint... 
+2019-12-31 08:19:38.702001: saving checkpoint... 
+2019-12-31 08:19:40.041889: done, saving took 1.40 seconds 
+2019-12-31 08:19:40.182108: New best epoch (train loss MA): 0.2910 
+2019-12-31 08:19:40.182275: Patience: 0/50 
+2019-12-31 08:19:40.182330: This epoch took 785.534801 s
+ 
+2019-12-31 08:19:40.182376: 
+epoch:  7 
+2019-12-31 08:30:11.339763: train loss : -0.7963 
+2019-12-31 08:32:33.265934: val loss (train=False): -0.8110 
+2019-12-31 08:32:33.550520: Val glob dc per class: [0.8640302816617131, 0.8028303809803171, 0.9102232659746982] 
+2019-12-31 08:32:35.795193: lr is now (scheduler) 0.0003 
+2019-12-31 08:32:35.795379: current best_val_eval_criterion_MA is 0.63880 
+2019-12-31 08:32:35.795483: current val_eval_criterion_MA is 0.6608 
+2019-12-31 08:32:35.795549: saving best epoch checkpoint... 
+2019-12-31 08:32:35.850587: saving checkpoint... 
+2019-12-31 08:32:40.800363: done, saving took 5.00 seconds 
+2019-12-31 08:32:40.896598: New best epoch (train loss MA): 0.2149 
+2019-12-31 08:32:40.896792: Patience: 0/50 
+2019-12-31 08:32:40.896870: This epoch took 773.312347 s
+ 
+2019-12-31 08:32:40.896932: 
+epoch:  8 
+2019-12-31 08:43:11.222558: train loss : -0.8060 
+2019-12-31 08:45:38.139880: val loss (train=False): -0.8172 
+2019-12-31 08:45:38.350462: Val glob dc per class: [0.8705860426825178, 0.8015911855411225, 0.9112521612159753] 
+2019-12-31 08:45:40.555653: lr is now (scheduler) 0.0003 
+2019-12-31 08:45:40.555867: current best_val_eval_criterion_MA is 0.66080 
+2019-12-31 08:45:40.555921: current val_eval_criterion_MA is 0.6809 
+2019-12-31 08:45:40.555959: saving best epoch checkpoint... 
+2019-12-31 08:45:40.612495: saving checkpoint... 
+2019-12-31 08:45:45.119803: done, saving took 4.56 seconds 
+2019-12-31 08:45:45.236152: New best epoch (train loss MA): 0.1434 
+2019-12-31 08:45:45.236306: Patience: 0/50 
+2019-12-31 08:45:45.236380: This epoch took 777.391711 s
+ 
+2019-12-31 08:45:45.236450: 
+epoch:  9 
+2019-12-31 08:56:45.192494: train loss : -0.8142 
+2019-12-31 08:59:16.255524: val loss (train=False): -0.8197 
+2019-12-31 08:59:16.455065: Val glob dc per class: [0.8712351312192138, 0.8001848827646473, 0.9144365830314121] 
+2019-12-31 08:59:18.627018: lr is now (scheduler) 0.0003 
+2019-12-31 08:59:18.627348: current best_val_eval_criterion_MA is 0.68090 
+2019-12-31 08:59:18.627535: current val_eval_criterion_MA is 0.6990 
+2019-12-31 08:59:18.627621: saving best epoch checkpoint... 
+2019-12-31 08:59:18.684360: saving checkpoint... 
+2019-12-31 08:59:19.925847: done, saving took 1.30 seconds 
+2019-12-31 08:59:20.010617: New best epoch (train loss MA): 0.0764 
+2019-12-31 08:59:20.010773: Patience: 0/50 
+2019-12-31 08:59:20.010828: This epoch took 811.158036 s
+ 
+2019-12-31 08:59:20.010874: 
+epoch:  10 
+2019-12-31 09:10:28.813019: train loss : -0.8177 
+2019-12-31 09:12:51.321183: val loss (train=False): -0.8293 
+2019-12-31 09:12:51.472809: Val glob dc per class: [0.8774879615812858, 0.8139604450023689, 0.9163950754470245] 
+2019-12-31 09:12:53.819215: lr is now (scheduler) 0.0003 
+2019-12-31 09:12:53.819381: current best_val_eval_criterion_MA is 0.69900 
+2019-12-31 09:12:53.819464: current val_eval_criterion_MA is 0.7160 
+2019-12-31 09:12:53.819521: saving best epoch checkpoint... 
+2019-12-31 09:12:53.874647: saving checkpoint... 
+2019-12-31 09:12:55.148125: done, saving took 1.33 seconds 
+2019-12-31 09:12:55.204818: New best epoch (train loss MA): 0.0138 
+2019-12-31 09:12:55.204971: Patience: 0/50 
+2019-12-31 09:12:55.205044: This epoch took 811.365871 s
+ 
+2019-12-31 09:12:55.205105: 
+epoch:  11 
+2019-12-31 09:23:48.929257: train loss : -0.8236 
+2019-12-31 09:26:20.783039: val loss (train=False): -0.8354 
+2019-12-31 09:26:20.935142: Val glob dc per class: [0.8800263398646535, 0.8205361809330274, 0.9182166687235] 
+2019-12-31 09:26:27.127147: lr is now (scheduler) 0.0003 
+2019-12-31 09:26:27.127338: current best_val_eval_criterion_MA is 0.71600 
+2019-12-31 09:26:27.127432: current val_eval_criterion_MA is 0.7317 
+2019-12-31 09:26:27.127505: saving best epoch checkpoint... 
+2019-12-31 09:26:27.185882: saving checkpoint... 
+2019-12-31 09:26:28.549855: done, saving took 1.42 seconds 
+2019-12-31 09:26:28.604530: New best epoch (train loss MA): -0.0448 
+2019-12-31 09:26:28.604677: Patience: 0/50 
+2019-12-31 09:26:28.604741: This epoch took 805.664612 s
+ 
+2019-12-31 09:26:28.604788: 
+epoch:  12 
+2019-12-31 09:37:28.044104: train loss : -0.8275 
+2019-12-31 09:39:55.402878: val loss (train=False): -0.8360 
+2019-12-31 09:39:55.633195: Val glob dc per class: [0.8795939270337639, 0.823811626596211, 0.9144391091646009] 
+2019-12-31 09:39:57.972291: lr is now (scheduler) 0.0003 
+2019-12-31 09:39:57.972495: current best_val_eval_criterion_MA is 0.73170 
+2019-12-31 09:39:57.972573: current val_eval_criterion_MA is 0.7458 
+2019-12-31 09:39:57.972633: saving best epoch checkpoint... 
+2019-12-31 09:39:58.026119: saving checkpoint... 
+2019-12-31 09:39:59.331740: done, saving took 1.36 seconds 
+2019-12-31 09:39:59.391638: New best epoch (train loss MA): -0.0996 
+2019-12-31 09:39:59.391826: Patience: 0/50 
+2019-12-31 09:39:59.391921: This epoch took 806.939120 s
+ 
+2019-12-31 09:39:59.391997: 
+epoch:  13 
+2019-12-31 09:51:06.835566: train loss : -0.8319 
+2019-12-31 09:53:32.916248: val loss (train=False): -0.8428 
+2019-12-31 09:53:33.128600: Val glob dc per class: [0.8824964504501555, 0.8300179949033544, 0.9194982622444016] 
+2019-12-31 09:53:35.513817: lr is now (scheduler) 0.0003 
+2019-12-31 09:53:35.514001: current best_val_eval_criterion_MA is 0.74580 
+2019-12-31 09:53:35.514050: current val_eval_criterion_MA is 0.7589 
+2019-12-31 09:53:35.514088: saving best epoch checkpoint... 
+2019-12-31 09:53:35.568527: saving checkpoint... 
+2019-12-31 09:53:39.987111: done, saving took 4.47 seconds 
+2019-12-31 09:53:40.039044: New best epoch (train loss MA): -0.1509 
+2019-12-31 09:53:40.039200: Patience: 0/50 
+2019-12-31 09:53:40.039264: This epoch took 813.667906 s
+ 
+2019-12-31 09:53:40.039317: 
+epoch:  14 
+2019-12-31 10:04:48.306272: train loss : -0.8360 
+2019-12-31 10:07:06.237098: val loss (train=False): -0.8435 
+2019-12-31 10:07:06.353495: Val glob dc per class: [0.8851001127957646, 0.8275814002408542, 0.9217562969528728] 
+2019-12-31 10:07:08.732244: lr is now (scheduler) 0.0003 
+2019-12-31 10:07:08.732435: current best_val_eval_criterion_MA is 0.75890 
+2019-12-31 10:07:08.732511: current val_eval_criterion_MA is 0.7709 
+2019-12-31 10:07:08.732564: saving best epoch checkpoint... 
+2019-12-31 10:07:08.784625: saving checkpoint... 
+2019-12-31 10:07:09.883379: done, saving took 1.15 seconds 
+2019-12-31 10:07:09.949144: New best epoch (train loss MA): -0.1988 
+2019-12-31 10:07:09.949290: Patience: 0/50 
+2019-12-31 10:07:09.949368: This epoch took 806.257301 s
+ 
+2019-12-31 10:07:09.949441: 
+epoch:  15 
+2019-12-31 10:18:23.153499: train loss : -0.8353 
+2019-12-31 10:20:49.312377: val loss (train=False): -0.8450 
+2019-12-31 10:20:49.550207: Val glob dc per class: [0.883524461880233, 0.8308312275580043, 0.9221923425893216] 
+2019-12-31 10:20:55.298674: lr is now (scheduler) 0.0003 
+2019-12-31 10:20:55.298868: current best_val_eval_criterion_MA is 0.77090 
+2019-12-31 10:20:55.298947: current val_eval_criterion_MA is 0.7817 
+2019-12-31 10:20:55.299011: saving best epoch checkpoint... 
+2019-12-31 10:20:55.354566: saving checkpoint... 
+2019-12-31 10:20:56.812814: done, saving took 1.51 seconds 
+2019-12-31 10:20:56.871983: New best epoch (train loss MA): -0.2434 
+2019-12-31 10:20:56.872165: Patience: 0/50 
+2019-12-31 10:20:56.872248: This epoch took 819.541394 s
+ 
+2019-12-31 10:20:56.872311: 
+epoch:  16 
+2019-12-31 10:32:05.617136: train loss : -0.8423 
+2019-12-31 10:34:21.403363: val loss (train=False): -0.8511 
+2019-12-31 10:34:21.591208: Val glob dc per class: [0.8895896990703374, 0.8378903175889154, 0.9237516682078429] 
+2019-12-31 10:34:24.108274: lr is now (scheduler) 0.0003 
+2019-12-31 10:34:24.108489: current best_val_eval_criterion_MA is 0.78170 
+2019-12-31 10:34:24.108565: current val_eval_criterion_MA is 0.7919 
+2019-12-31 10:34:24.108608: saving best epoch checkpoint... 
+2019-12-31 10:34:24.163294: saving checkpoint... 
+2019-12-31 10:34:25.431087: done, saving took 1.32 seconds 
+2019-12-31 10:34:25.495802: New best epoch (train loss MA): -0.2853 
+2019-12-31 10:34:25.495950: Patience: 0/50 
+2019-12-31 10:34:25.496026: This epoch took 804.654141 s
+ 
+2019-12-31 10:34:25.496094: 
+epoch:  17 
+2019-12-31 10:45:27.544822: train loss : -0.8419 
+2019-12-31 10:48:02.145576: val loss (train=False): -0.8512 
+2019-12-31 10:48:02.366993: Val glob dc per class: [0.8892889880503563, 0.836796423213117, 0.9245420230018023] 
+2019-12-31 10:48:04.805200: lr is now (scheduler) 0.0003 
+2019-12-31 10:48:04.805444: current best_val_eval_criterion_MA is 0.79190 
+2019-12-31 10:48:04.805567: current val_eval_criterion_MA is 0.8010 
+2019-12-31 10:48:04.805637: saving best epoch checkpoint... 
+2019-12-31 10:48:04.856594: saving checkpoint... 
+2019-12-31 10:48:06.308690: done, saving took 1.50 seconds 
+2019-12-31 10:48:06.366670: New best epoch (train loss MA): -0.3243 
+2019-12-31 10:48:06.366817: Patience: 0/50 
+2019-12-31 10:48:06.366895: This epoch took 816.802256 s
+ 
+2019-12-31 10:48:06.366956: 
+epoch:  18 
+2019-12-31 10:59:10.737531: train loss : -0.8456 
+2019-12-31 11:01:44.689062: val loss (train=False): -0.8513 
+2019-12-31 11:01:44.915843: Val glob dc per class: [0.8920255166853789, 0.8326086644443004, 0.9242782572981038] 
+2019-12-31 11:01:47.080939: lr is now (scheduler) 0.0003 
+2019-12-31 11:01:47.081145: current best_val_eval_criterion_MA is 0.80100 
+2019-12-31 11:01:47.081228: current val_eval_criterion_MA is 0.8092 
+2019-12-31 11:01:47.081294: saving best epoch checkpoint... 
+2019-12-31 11:01:47.133720: saving checkpoint... 
+2019-12-31 11:01:48.383755: done, saving took 1.30 seconds 
+2019-12-31 11:01:48.444808: New best epoch (train loss MA): -0.3607 
+2019-12-31 11:01:48.444960: Patience: 0/50 
+2019-12-31 11:01:48.445015: This epoch took 818.479684 s
+ 
+2019-12-31 11:01:48.445061: 
+epoch:  19 
+2019-12-31 11:13:47.622244: train loss : -0.8469 
+2019-12-31 11:15:59.888733: val loss (train=False): -0.8543 
+2019-12-31 11:15:59.990562: Val glob dc per class: [0.8946896617496842, 0.8350968175864633, 0.9252517818272712] 
+2019-12-31 11:16:02.388506: lr is now (scheduler) 0.0003 
+2019-12-31 11:16:02.388692: current best_val_eval_criterion_MA is 0.80920 
+2019-12-31 11:16:02.388775: current val_eval_criterion_MA is 0.8168 
+2019-12-31 11:16:02.388823: saving best epoch checkpoint... 
+2019-12-31 11:16:02.444862: saving checkpoint... 
+2019-12-31 11:16:07.102695: done, saving took 4.71 seconds 
+2019-12-31 11:16:07.163102: New best epoch (train loss MA): -0.3948 
+2019-12-31 11:16:07.163242: Patience: 0/50 
+2019-12-31 11:16:07.163296: This epoch took 851.480743 s
+ 
+2019-12-31 11:16:07.163341: 
+epoch:  20 
+2019-12-31 11:27:30.181951: train loss : -0.8476 
+2019-12-31 11:30:00.143761: val loss (train=False): -0.8551 
+2019-12-31 11:30:00.298979: Val glob dc per class: [0.8934844860248371, 0.8371228245579164, 0.9263841694466253] 
+2019-12-31 11:30:02.624345: lr is now (scheduler) 0.0003 
+2019-12-31 11:30:02.624550: current best_val_eval_criterion_MA is 0.81680 
+2019-12-31 11:30:02.624606: current val_eval_criterion_MA is 0.8237 
+2019-12-31 11:30:02.624648: saving best epoch checkpoint... 
+2019-12-31 11:30:02.681262: saving checkpoint... 
+2019-12-31 11:30:03.946269: done, saving took 1.32 seconds 
+2019-12-31 11:30:04.007331: New best epoch (train loss MA): -0.4265 
+2019-12-31 11:30:04.007512: Patience: 0/50 
+2019-12-31 11:30:04.007575: This epoch took 833.101783 s
+ 
+2019-12-31 11:30:04.007619: 
+epoch:  21 
+2019-12-31 11:41:40.425190: train loss : -0.8489 
+2019-12-31 11:43:59.318175: val loss (train=False): -0.8526 
+2019-12-31 11:43:59.508678: Val glob dc per class: [0.8906959221722728, 0.835511969792355, 0.9258689430956013] 
+2019-12-31 11:44:01.845163: lr is now (scheduler) 0.0003 
+2019-12-31 11:44:01.845388: current best_val_eval_criterion_MA is 0.82370 
+2019-12-31 11:44:01.845492: current val_eval_criterion_MA is 0.8297 
+2019-12-31 11:44:01.845538: saving best epoch checkpoint... 
+2019-12-31 11:44:01.901083: saving checkpoint... 
+2019-12-31 11:44:06.832763: done, saving took 4.99 seconds 
+2019-12-31 11:44:06.897646: New best epoch (train loss MA): -0.4560 
+2019-12-31 11:44:06.897798: Patience: 0/50 
+2019-12-31 11:44:06.897849: This epoch took 835.408007 s
+ 
+2019-12-31 11:44:06.897891: 
+epoch:  22 
+2019-12-31 11:55:34.815907: train loss : -0.8519 
+2019-12-31 11:57:55.052106: val loss (train=False): -0.8591 
+2019-12-31 11:57:55.237012: Val glob dc per class: [0.8968377022147858, 0.8431596514593381, 0.9282470069593461] 
+2019-12-31 11:57:57.839705: lr is now (scheduler) 0.0003 
+2019-12-31 11:57:57.839888: current best_val_eval_criterion_MA is 0.82970 
+2019-12-31 11:57:57.839964: current val_eval_criterion_MA is 0.8357 
+2019-12-31 11:57:57.840039: saving best epoch checkpoint... 
+2019-12-31 11:57:57.891137: saving checkpoint... 
+2019-12-31 11:57:59.157710: done, saving took 1.32 seconds 
+2019-12-31 11:57:59.235447: New best epoch (train loss MA): -0.4838 
+2019-12-31 11:57:59.235599: Patience: 0/50 
+2019-12-31 11:57:59.235681: This epoch took 828.283207 s
+ 
+2019-12-31 11:57:59.235738: 
+epoch:  23 
+2019-12-31 12:09:04.566558: train loss : -0.8519 
+2019-12-31 12:11:38.324234: val loss (train=False): -0.8603 
+2019-12-31 12:11:38.545921: Val glob dc per class: [0.8966315975598974, 0.842820912542731, 0.9297661823124664] 
+2019-12-31 12:11:41.082309: lr is now (scheduler) 0.0003 
+2019-12-31 12:11:41.082523: current best_val_eval_criterion_MA is 0.83570 
+2019-12-31 12:11:41.082585: current val_eval_criterion_MA is 0.8411 
+2019-12-31 12:11:41.082644: saving best epoch checkpoint... 
+2019-12-31 12:11:41.136977: saving checkpoint... 
+2019-12-31 12:11:42.297097: done, saving took 1.21 seconds 
+2019-12-31 12:11:42.347670: New best epoch (train loss MA): -0.5095 
+2019-12-31 12:11:42.347829: Patience: 0/50 
+2019-12-31 12:11:42.347882: This epoch took 819.241929 s
+ 
+2019-12-31 12:11:42.347924: 
+epoch:  24 
+2019-12-31 12:22:46.915783: train loss : -0.8535 
+2019-12-31 12:25:18.027495: val loss (train=False): -0.8603 
+2019-12-31 12:25:18.195966: Val glob dc per class: [0.8969735117026398, 0.8473670175403176, 0.9253246796934745] 
+2019-12-31 12:25:20.752607: lr is now (scheduler) 0.0003 
+2019-12-31 12:25:20.752783: current best_val_eval_criterion_MA is 0.84110 
+2019-12-31 12:25:20.752884: current val_eval_criterion_MA is 0.8460 
+2019-12-31 12:25:20.752950: saving best epoch checkpoint... 
+2019-12-31 12:25:20.801976: saving checkpoint... 
+2019-12-31 12:25:21.904681: done, saving took 1.15 seconds 
+2019-12-31 12:25:21.948788: New best epoch (train loss MA): -0.5336 
+2019-12-31 12:25:21.948951: Patience: 0/50 
+2019-12-31 12:25:21.949024: This epoch took 815.808275 s
+ 
+2019-12-31 12:25:21.949071: 
+epoch:  25 
+2019-12-31 12:36:46.783819: train loss : -0.8546 
+2019-12-31 12:39:16.851198: val loss (train=False): -0.8617 
+2019-12-31 12:39:17.072832: Val glob dc per class: [0.8986696073841234, 0.8442526140122238, 0.9286315989887985] 
+2019-12-31 12:39:19.479237: lr is now (scheduler) 0.0003 
+2019-12-31 12:39:19.479440: current best_val_eval_criterion_MA is 0.84600 
+2019-12-31 12:39:19.479515: current val_eval_criterion_MA is 0.8504 
+2019-12-31 12:39:19.479573: saving best epoch checkpoint... 
+2019-12-31 12:39:19.530566: saving checkpoint... 
+2019-12-31 12:39:20.690363: done, saving took 1.21 seconds 
+2019-12-31 12:39:20.746193: New best epoch (train loss MA): -0.5561 
+2019-12-31 12:39:20.746350: Patience: 0/50 
+2019-12-31 12:39:20.746401: This epoch took 835.033649 s
+ 
+2019-12-31 12:39:20.746468: 
+epoch:  26 
+2019-12-31 12:50:47.311954: train loss : -0.8556 
+2019-12-31 12:53:15.538625: val loss (train=False): -0.8604 
+2019-12-31 12:53:15.889876: Val glob dc per class: [0.8981423725533727, 0.8421167578987302, 0.9279165162317466] 
+2019-12-31 12:53:22.079611: lr is now (scheduler) 0.0003 
+2019-12-31 12:53:22.079874: current best_val_eval_criterion_MA is 0.85040 
+2019-12-31 12:53:22.079964: current val_eval_criterion_MA is 0.8543 
+2019-12-31 12:53:22.080011: saving best epoch checkpoint... 
+2019-12-31 12:53:22.137658: saving checkpoint... 
+2019-12-31 12:53:23.318201: done, saving took 1.24 seconds 
+2019-12-31 12:53:23.414309: New best epoch (train loss MA): -0.5770 
+2019-12-31 12:53:23.414499: Patience: 0/50 
+2019-12-31 12:53:23.414569: This epoch took 835.071644 s
+ 
+2019-12-31 12:53:23.414617: 
+epoch:  27 
+2019-12-31 13:04:39.488332: train loss : -0.8548 
+2019-12-31 13:07:12.196537: val loss (train=False): -0.8636 
+2019-12-31 13:07:12.467181: Val glob dc per class: [0.8975000856743064, 0.8510431347161675, 0.9292252985385722] 
+2019-12-31 13:07:14.818510: lr is now (scheduler) 0.0003 
+2019-12-31 13:07:14.818773: current best_val_eval_criterion_MA is 0.85430 
+2019-12-31 13:07:14.818877: current val_eval_criterion_MA is 0.8582 
+2019-12-31 13:07:14.818943: saving best epoch checkpoint... 
+2019-12-31 13:07:14.879834: saving checkpoint... 
+2019-12-31 13:07:16.101069: done, saving took 1.28 seconds 
+2019-12-31 13:07:16.167320: New best epoch (train loss MA): -0.5965 
+2019-12-31 13:07:16.167535: Patience: 0/50 
+2019-12-31 13:07:16.167638: This epoch took 828.988586 s
+ 
+2019-12-31 13:07:16.167717: 
+epoch:  28 
+2019-12-31 13:18:33.268500: train loss : -0.8569 
+2019-12-31 13:21:06.352978: val loss (train=False): -0.8674 
+2019-12-31 13:21:06.518944: Val glob dc per class: [0.901824113895892, 0.8541989840984852, 0.9302369316404052] 
+2019-12-31 13:21:08.745760: lr is now (scheduler) 0.0003 
+2019-12-31 13:21:08.745933: current best_val_eval_criterion_MA is 0.85820 
+2019-12-31 13:21:08.745985: current val_eval_criterion_MA is 0.8619 
+2019-12-31 13:21:08.746023: saving best epoch checkpoint... 
+2019-12-31 13:21:08.795682: saving checkpoint... 
+2019-12-31 13:21:10.031973: done, saving took 1.29 seconds 
+2019-12-31 13:21:10.073565: New best epoch (train loss MA): -0.6147 
+2019-12-31 13:21:10.073712: Patience: 0/50 
+2019-12-31 13:21:10.073776: This epoch took 830.300600 s
+ 
+2019-12-31 13:21:10.073821: 
+epoch:  29 
+2019-12-31 13:32:38.277778: train loss : -0.8595 
+2019-12-31 13:35:20.497395: val loss (train=False): -0.8676 
+2019-12-31 13:35:20.728613: Val glob dc per class: [0.900702145653449, 0.8555914897735338, 0.9296237288802345] 
+2019-12-31 13:35:22.894845: lr is now (scheduler) 0.0003 
+2019-12-31 13:35:22.895011: current best_val_eval_criterion_MA is 0.86190 
+2019-12-31 13:35:22.895069: current val_eval_criterion_MA is 0.8652 
+2019-12-31 13:35:22.895155: saving best epoch checkpoint... 
+2019-12-31 13:35:22.944639: saving checkpoint... 
+2019-12-31 13:35:24.071151: done, saving took 1.18 seconds 
+2019-12-31 13:35:24.129037: New best epoch (train loss MA): -0.6318 
+2019-12-31 13:35:24.129232: Patience: 0/50 
+2019-12-31 13:35:24.129336: This epoch took 850.582833 s
+ 
+2019-12-31 13:35:24.129437: 
+epoch:  30 
+2019-12-31 13:47:08.602785: train loss : -0.8599 
+2019-12-31 13:49:33.003044: val loss (train=False): -0.8694 
+2019-12-31 13:49:33.108830: Val glob dc per class: [0.902209378596418, 0.8571559841583177, 0.9313405534727057] 
+2019-12-31 13:49:35.544652: lr is now (scheduler) 0.0003 
+2019-12-31 13:49:35.544831: current best_val_eval_criterion_MA is 0.86520 
+2019-12-31 13:49:35.544881: current val_eval_criterion_MA is 0.8684 
+2019-12-31 13:49:35.544919: saving best epoch checkpoint... 
+2019-12-31 13:49:35.594200: saving checkpoint... 
+2019-12-31 13:49:36.799948: done, saving took 1.25 seconds 
+2019-12-31 13:49:36.865968: New best epoch (train loss MA): -0.6478 
+2019-12-31 13:49:36.866125: Patience: 0/50 
+2019-12-31 13:49:36.866191: This epoch took 848.933963 s
+ 
+2019-12-31 13:49:36.866259: 
+epoch:  31 
