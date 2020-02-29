@@ -18,5 +18,5 @@
 	 "3": "enhancing tumour"
  }, 
  "numTraining": 5,
- "training":[{"image":"./imagesTr/BRATS_00.nii.gz","label":"./labelsTr/BRATS_00.nii.gz"},{"image":"./imagesTr/BRATS_00101.nii.gz","label":"./labelsTr/BRATS_00101.nii.gz"},{"image":"./imagesTr/BRATS_00102.nii.gz","label":"./labelsTr/BRATS_00102.nii.gz"},{"image":"./imagesTr/BRATS_00103.nii.gz","label":"./labelsTr/BRATS_00103.nii.gz"},{"image":"./imagesTr/BRATS_00104.nii.gz","label":"./labelsTr/BRATS_00104.nii.gz"}]
+ "training":[{"image":"./imagesTr/BRATS_0.nii.gz","label":"./labelsTr/BRATS_0.nii.gz"},{"image":"./imagesTr/BRATS_00101.nii.gz","label":"./labelsTr/BRATS_00101.nii.gz"},{"image":"./imagesTr/BRATS_00102.nii.gz","label":"./labelsTr/BRATS_00102.nii.gz"},{"image":"./imagesTr/BRATS_00103.nii.gz","label":"./labelsTr/BRATS_00103.nii.gz"},{"image":"./imagesTr/BRATS_00104.nii.gz","label":"./labelsTr/BRATS_00104.nii.gz"}]
  }
